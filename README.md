@@ -9,6 +9,7 @@ Combines the output of `git status` and `git log --graph`
 
 ## Todo
 
+1. Add message at top, if working tree is clean.
 1. Introduce docopts.
 1. Make `--all` default but add option for named branch.
 1. Add option for frequency of watch.
