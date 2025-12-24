@@ -1,11 +1,15 @@
 # Git Graph
 
-1. Place ```gitgraph.sh``` somewhere on your system.
-2. Add the following to ```.bash_aliases``` and set the filepath to ```gitgraph.sh```.
-```
-gitgraph_watch () {
-    watch --no-title --color -n 1 <full path to gitgraph.sh> $1
-}
-alias gitgraph="gitgraph_watch"
-```
-3. Run, for example ```gitgraph <path to a git repo> --all```
+Combines the output of `git status` and `git log --graph`
+
+## Notes
+
+1. Install with you modified './install.sh.sample'.
+1. Looks for git repo in current directory.
+
+## Todo
+
+1. Introduce docopts.
+1. Make `--all` default but add option for named branch.
+1. Add option for frequency of watch.
+1. Add option for pretty log format.
