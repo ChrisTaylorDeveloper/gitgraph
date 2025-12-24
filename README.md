@@ -4,7 +4,7 @@ Combines the output of `git status` and `git log --graph`
 
 ## Notes
 
-1. Install with you modified './install.sh.sample'.
+1. Install with your modified `./install.sh.sample`.
 1. Looks for git repo in current directory.
 
 ## Todo
