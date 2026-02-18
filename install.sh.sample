@@ -1,3 +1,0 @@
-#!/bin/bash
-
-install ~/code/gitgraph/gitgraph.sh /home/chris/.local/bin/gitgraph
